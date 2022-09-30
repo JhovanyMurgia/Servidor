@@ -8,6 +8,6 @@ const server = http.createServer((req, res) => {
     res.end('Acessando o servidor');
 });
 
-server.listen(porta, hostname, () => {
+server.listen(porta, () => {
     console.log(`Server rodando em http://localhost:${porta}`);
 });
